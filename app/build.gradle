@@ -80,7 +80,7 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
 
 
-    implementation 'com.facebook.android:audience-network-sdk:6.+'
+    implementation 'com.facebook.android:audience-network-sdk:6.21.0'
     implementation 'com.facebook.android:facebook-android-sdk:13.0.0'
     //Flex box
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
