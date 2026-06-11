@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "670540665766",
+    "firebase_url": "https://rapidkopa-default-rtdb.firebaseio.com",
+    "project_id": "rapidkopa",
+    "storage_bucket": "rapidkopa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670540665766:android:022f0501dcc781cfbe3567",
+        "android_client_info": {
+          "package_name": "com.rapidkopainc.rapidkopa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ9joPQM8A1BYJ8GZpgu206199V4XTE20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:title="Education Level"
+        app:titleTextAppearance="@style/textAppearanceTitleBold"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="What is your highest level of education?"
+                android:textAppearance="@style/textAppearanceTitleBold"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:buttonTint="@color/colorPrimary"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None"/>
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:buttonTint="@color/colorPrimary"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Primary" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:buttonTint="@color/colorPrimary"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Secondary"/>
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:buttonTint="@color/colorPrimary"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="College/University" />
+            </RadioGroup>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Please select all that apply to you"
+                android:textAppearance="@style/textAppearanceTitleBold"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:buttonTint="@color/colorPrimary"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Have a job"/>
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:buttonTint="@color/colorPrimary"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Self Employed"
+                    android:layout_marginLeft="16dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:buttonTint="@color/colorPrimary"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student" />
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:buttonTint="@color/colorPrimary"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Income"
+                    android:layout_marginLeft="16dp"/>
+
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="24dp">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_marginRight="8dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_gravity="center"
+            ads:strokeColor="@color/colorPrimary"
+            android:textAppearance="@style/textAppearanceButton"
+            android:textColor="@color/colorPrimary"
+            android:onClick="back"
+            android:text="Back"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_gravity="center"
+            android:textAppearance="@style/textAppearanceButton"
+            android:textColor="@android:color/white"
+            android:onClick="next"
+            android:text="Next"/>
+    </LinearLayout>
+    <include layout="@layout/audience_network_bannerad"  />
+</LinearLayout>

@@ -1,0 +1,288 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Rapid Kopa</string>
+
+
+    <!---Facebook-->
+    <string name="facebook_app_id">1014121862573043</string>
+    <string name="facebook_client_token">150a924ee5bb2fb986db171366b78a0d</string>
+    <!--Ad IDS-->
+    <string name="facebook_bannerad_id">1373174626565653_1373175369898912</string>
+    <string name="facebook_interstitialad_id">1373174626565653_1373178633231919</string>
+    <!--
+    <string name="facebook_bannerad_id">1317583212304142_1317584812303982</string>
+    <string name="facebook_interstitialad_id">1317583212304142_1317584895637307</string>
+    -->
+    <string name="simple_notification_title">OTP Verification</string>
+    <string name="simple_notification_text">Use 687209 to verify your account</string>
+
+    <string name="registertext">All the information you provide \nare encrypted and secured</string>
+    <string name="applytext" tools:ignore="Typos">Dear Customer, \n \nConsidering your MPESA transaction history, your loan level is Gold. You qualify for a loan upto KES.50,000. \n \nFor this first time application, We will offer you a loan of KES.25,000. \n\n Please note that you have to honor repayment dates to get the maximum loan limit or more.</string>
+    <string name="procedure">1. Create account/Login\n2. Enter Identification Details \n3. Access our  services instantly</string>
+    <string name="get_loan">Register with 3 EASY Steps</string>
+    <string name="status_pending"> Congratulations Your Request was Submitted Successfully,Once Approved You Will Receive Notification SMS </string>
+    <string name="slide_1_title">Hello There!</string>
+    <string name="slide_1_desc">Qualify for instant loans upto KES. 80,000. Anywhere, anytime</string>
+
+    <string name="slide_2_title">No Delays</string>
+    <string name="slide_2_desc">Receive money to your phone directly in less than 24 hours</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on your loan repayments and on the number of your referrals</string>
+
+    <string name="slide_4_title">Simple and Transparent</string>
+    <string name="slide_4_desc">Borrow with confidence and repay with much ease</string>
+    <string name="next">Next</string>
+    <string name="start">Got It</string>
+    <string-array name="countries">
+        <item>ZENKA Loan Kenya</item>
+        <item>Berry Simple Swift Loans</item>
+        <item>Branch Rapid Kopa</item>
+        <item>PesaFlash Mobile Loans</item>
+        <item>Barclays-Timiza</item>
+        <item>Okolea</item>
+        <item>Tala Loans</item>
+        <item>HF WHIZZ</item>
+        <item>KCB M-Pesa</item>
+        <item>Okash Rapid Kopa</item>
+        <item>Stawika</item>
+        <item>Afrikaloan Kenya</item>
+        <item>Safaricom Fuliza</item>
+        <item>Fadhili</item>
+        <item>Haraka Mobile Loans</item>
+        <item>Pezesha</item>
+        <item>Senti</item>
+        <item>Ipesa- Fast Credit</item>
+    </string-array>
+    //tala
+
+
+    //branch
+
+    //timiza
+
+
+    //zenka
+
+
+    //berry
+
+    //hfwhizz
+    Open the HF Whizz app on your device
+    Provide the required details. (Includes phone number and ID number)
+    Input the verification code sent to you via SMS
+    Set your pin
+    The account is activated.
+    It only takes a few minutes for you to have an active account. Or we may say, your account is up
+    and running in a ‘Whizz’.
+
+    //kcbmpesa
+
+    //Safaricom-Mshwari
+
+
+    //Stawika
+
+    //Okash
+
+    //Haraka
+
+
+    //AfrikaLoan
+
+
+    //Fuliza Mpesa
+    //Fadhili
+    //Idooh
+
+    //Ipesa
+
+    //MKey
+
+
+    //Okolea
+
+    //Senti
+
+    //Pezesha
+
+
+    //Pesaflash
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="send_text">Submit Message</string>
+    <string name="crb_prov">CRB Providers</string>
+    <string name="crb_info">About CRB</string>
+    <string name="crb_form">CRB Inquiries Form</string>
+    <string name="crb_prov1">TRANSUNION</string>
+    <string name="crb_prov2">METROPOL</string>
+    <string name="crb_prov3">CREDITINFO</string>
+    <string name="crb_detaik"><b>CRB (Credit Reference Bureau)</b> is a company that collects data on loans issued by lending institutions, and consequently creates reports (known as credit reports) on a borrowers current and past loans. With this information, a CRB is able to draw out the repayment patterns of each borrower. Lenders will obtain your credit report and use this repayment information to determine if they will issue you with a loan.
+In Kenya, we have three CRBs; all licensed for operation and regulated by the Central Bank of Kenya:</string>
+    <string name="crbb_prov1"><b>How to Check CRB status via Mobile App</b>\n\n
+1. Download TransUnion Nipashe app from Google
+Play store (For Android Users)\n
+2. Enter your ID number, Mobile Phone Number and
+names\n
+3. Check Status\n
+4. If GOOD! Message appears as shown in image the
+below then you are fine\n\n
+NOTE: This process is absolutely free. If you need any
+further information than that then you need to pay kes
+650. Getting a clearance certificate with Transunion
+will cost you Ksh. 2200.\n
+Checking CRB status via SMSn\
+1. Send your names to 21272n\
+2. Then, Enter your National ID number\n
+3. Choose CC (meaning Credit Status)\n
+4. You will then Receive your CRB status. Good will
+mean you are not while default will mean you are
+blacklisted\n\n
+Contacts\n
+• Office Location: Prosperity House, Westlands Rd, Off
+Museum Hill in Westlands, Nairobi.
+Mobile Phone Number: +254 20 3751799 or
+0730651000\n
+• Email: info@transunion.com\n
+• Official website:\n
+http:/www.transunionnipashe.co.ke</string>
+    <string name="crbb_prov2">You can access CRB services from Metropol through\n
+Metropol website,\nmetropol crystobol app or by\n
+dialling*433#.\n
+If you have chosen to register with metropol,then
+check out these steps;\n\n
+Register With Metropol\n
+• You will Pay kes 50 as registration fees through the
+Paybill number 220388.Enter your ID number as the
+account number.\n
+• You\'ll get an SMS with your unique PIN details,a
+Reference Number and a special Link/li>
+Access Metropol CRB services\n
+After paying the registration fees ,now you\'re allowed
+to check your CRB status.\n
+• You can choose to dial *433# and enter PIN and
+you\'ll get your listing status through an SMS.\n
+• You can choose to use the metropol Crystobol
+app.Login and view you CRB status.\n
+• You can visit metropol website ,Login and view your
+listing status.\n
+There are other services which you can also get from
+Metropol.Note that after payment of the required fees,
+you\'ll follow the same steps as checking your CRB
+status above.Pay all the fees the same way you paid
+for registration.\n
+You can visit metropol website ,Login and view your
+listing status.\n
+Metropol CRB\n
+• Credit Score-Pay kes150.You are entitled to one
+free credit report in a year.Pa only to get more than
+one report in a year. Metropol gives a score between
+200 and 900.Any score below 400 will mean you\'re a
+defaulter and lender can\'t give you loans.Any score
+above 400 will mean fair and lenders will give you
+loans with a lot of caution.Good credit score is any
+score near 900 and lenders will give you cheap loans.\n
+• Credit Report- Pay kes250.This is a detailed report
+on how you interact with financial institutions.\n
+• Who listed you- Pay kes 50 to know who sent your
+name to the CRB.\n
+• Clearance Certificate- Pay kes2200.After clearing
+all your defaulted loans, you\'ll be issued with a
+clearance certificate
+Contacts\n
+• Office Location: 9th Floor, Barclays Plaza, Loita
+street, Nairobi (Metropol Credit Reference Bureau
+Limited)\n
+• Phone Number: +254709834000\n
+• Official website: http://metropol.co.ke/</string>
+    <string name="crbb_prov3">How to check your CRB status\n\n
+CreditInfo entirely works on the information they
+receive through emails. but first you will be required
+to fill;\n
+• Online credit request form to obtain your certificate
+of clearance\n
+• And if you feel that your Credit Report Contains
+incorrect information you will be asked to fill Credit
+report Dispute form.\n
+Creditinfo Kenya\’s core business is information
+related to credit, offering services to cover each stage
+of the customer life cycle.
+Contacts\n
+• Call:+254 20 375 7272\n
+• Physical address: Spark Suite, Parklands road\n
+• E-mail: info@creditinfo.co.ke\n
+• Email2:consumercare@creditinfo.co.ke\n
+• Date licensed: 29th April 2015\n
+• Website: https://ke.creditinfo.com/</string>
+    <string name="mor_about">The benefits of Our App in-app features at your fingertips:\n
+        • Personal security PIN to ensure protection;\n\n
+        • Track your credit with Rapid Kopa app\n
+        • Easy repayment schedule that keeps you on track with your payments\n
+• Millions of customers Around you have already signed up for our Products\n
+• Easy repayment plans keeps you on track with your daily deposits\n
+• Maximum Amount\n
+• Interests and Rates\n
+• Number of Downloaded Apps\n
+• In-depth Analysis of the app\n
+• etc\n
+        </string>
+    <string name="prove">The law permits Credit providers to submit names of individuals with any Non-Performing Loans to Credit Reference Bureaus for blacklisting.
+
+There are currently three licensed CRB companies in Kenya:</string>
+    <!--TJ Information-->
+    <!--Intro Screens-->
+    <string name="welcome_message">Welcome to Rapid Kopa</string>
+    <string name="brief_about">This app points out how one can access products offered by Rapid Kopa by listing each product with its specifications so that the users can view a product of their choice freely and easily.</string>
+    <!--TJ Home-->
+    <string name="product_categories">Product\nCategories</string>
+    <string name="our_products">Rapid Kopa\nProducts</string>
+    <string name="about_us">About\nRapid Kopa</string>
+    <!--Product Categories-->
+    <string name="household_items">Rapid Kopa\'s inventory includes a variety of household devices,including but not limited to radios, televisions, blenders, and others.</string>
+    <string name="smartphones">Rapid Kopa offers a range of smartphones from various brands with differing specifications.</string>
+    <string name="outdoor_power_electronics">Rapid Kopa\'s selection includes a variety of outdoor power electronic devices,including air conditioners and solar panels.</string>
+
+    <!--About -->
+    <string name="brief_about1">This application highlights the means by which one can access the products provided by  Rapid Kopa application by listing each product along with its specifications. This enables customers to freely and easily view their desired product choices.</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+</resources>

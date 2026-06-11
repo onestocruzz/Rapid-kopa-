@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowEnterTransition" tools:ignore="NewApi">@android:transition/explode</item>
+        <item name="android:windowExitTransition" tools:ignore="NewApi">@android:transition/explode</item>
+        <item name="android:windowActivityTransitions" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@android:color/white</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppThemeDashboard" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowEnterTransition" tools:ignore="NewApi">@android:transition/explode</item>
+        <item name="android:windowExitTransition" tools:ignore="NewApi">@android:transition/explode</item>
+        <item name="android:windowActivityTransitions" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@android:color/white</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/menutext</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+    <!--Typography-->
+
+    <style name="textAppearanceCaptionCustom">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="color">@android:color/black</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="textAppearanceBody">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="color">@android:color/black</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="textAppearanceBodyBold">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="color">@android:color/black</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="textAppearanceTitleBold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="color">@android:color/black</item>
+        <item name="fontFamily">@font/notosans_bold</item>
+    </style>
+
+    <!--Button Typography-->
+    <style name="textAppearanceButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontFamily">@font/notosans_regular</item>
+    </style>
+    <!--TextInputEditText-->
+    <style name="edittext">
+<item name="android:backgroundTint">@color/colorPrimary</item>
+    </style>
+</resources>

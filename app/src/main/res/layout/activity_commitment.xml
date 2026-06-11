@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.rapidkopainc.rapidkopa.CommitmentScreenActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:title="Commitment"
+        app:titleTextAppearance="@style/textAppearanceTitleBold"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"
+      />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/textAppearanceBody" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_till"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="208dp"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="1dp"
+                    ads:srcCompat="@drawable/till_header" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="207dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="Till Number"
+                    android:textColor="#FFFFFF"
+                    android:textAppearance="@style/textAppearanceBody"
+                   />
+
+                <TextView
+                    android:id="@+id/till_number"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:text="Till Number"
+                    android:textAppearance="@style/textAppearanceBodyBold" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="201dp"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="#FA0202" />
+
+                <TextView
+                    android:id="@+id/till_name"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:text="Till Name"
+                    android:textAppearance="@style/textAppearanceBodyBold"
+                    ads:textAllCaps="true" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/curve_bg_input"
+                android:textColorHint="@android:color/darker_gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mpesainp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Copy M-Pesa message received"
+                    android:textAppearance="@style/textAppearanceBody"
+                    android:textColor="@android:color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_gravity="center"
+                android:textAppearance="@style/textAppearanceButton"
+                android:textColor="@android:color/white"
+                android:onClick="confirmmpesa"
+                android:text="Confirm Message" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

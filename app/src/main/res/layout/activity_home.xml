@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgwhite">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                ads:cardCornerRadius="12dp"
+                ads:cardBackgroundColor="@android:color/white"
+                ads:cardElevation="4dp"
+                ads:cardUseCompatPadding="true"
+                android:layout_margin="1dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    >
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textAppearance="@style/textAppearanceTitleBold"
+                        android:text="Apply for a loan up to"
+                        android:textColor="@android:color/black" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ksh 80,000"
+                        android:textSize="30sp"
+                        android:textColor="@color/offer"
+                        android:textAppearance="@style/textAppearanceTitleBold"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Get instant loans at the lowest interest for all your emergencies"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="@style/textAppearanceBody"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/statuss"
+                            android:layout_width="0dp"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:textAppearance="@style/textAppearanceButton"
+                            android:textColor="@color/colorPrimary"
+                            android:text="LOAN STATUS"
+                            ads:backgroundTint="@color/white"
+                            ads:strokeColor="@color/colorPrimary"
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/button_apply"
+                            style="@style/Widget.MaterialComponents.Button"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_weight="1"
+                            android:onClick="apply"
+                            android:text="APPLY NOW"
+                            android:textAppearance="@style/textAppearanceButton"
+                            android:textColor="@android:color/white"
+                            ads:strokeColor="@color/colorPrimary" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:text="OUR PACKAGES"
+                android:textAppearance="?textAppearanceHeadline6"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        ads:srcCompat="@drawable/ic_basic"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="Emergency\nLoans"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="@style/textAppearanceBody"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        ads:srcCompat="@drawable/ic_personal"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="Personal\nloans"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="@style/textAppearanceBody"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        ads:srcCompat="@drawable/ic_contact"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="Business\nLoans"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="@style/textAppearanceBody"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/audience_network_bannerad"  />
+</LinearLayout>
+

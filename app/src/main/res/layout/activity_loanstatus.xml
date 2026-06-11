@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".LoanStatusScreenActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:title="Loan Status"
+        app:titleTextAppearance="@style/textAppearanceTitleBold"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_weight="1"
+        android:background="@color/bgwhite"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:cardCornerRadius="12dp"
+                ads:cardBackgroundColor="@android:color/white"
+                ads:cardElevation="4dp"
+                ads:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:verticalScrollbarPosition="defaultPosition">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/textAppearanceCaptionCustom"
+                        android:textColor="@android:color/black"
+                        android:text="status info" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textView10"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/textAppearanceBody"
+                        android:text="@string/status_pending" />
+
+                    <LinearLayout
+                        android:id="@+id/lay12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/textAppearanceTitleBold"
+                            android:layout_weight="1"
+                            android:text="Loan Status"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/textAppearanceTitleBold"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="8dp"
+                            android:text="Pending."
+                            android:textColor="@color/pending" />
+
+
+                    </LinearLayout>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:justifyContent="space_evenly"
+
+                        android:layout_weight="1"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/button3"
+                            android:layout_width="match_parent"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            ads:strokeColor="@color/colorPrimary"
+                            android:textAppearance="?textAppearanceBody1"
+                            android:textColor="@color/colorPrimary"
+                            android:onClick="back"
+                            android:text="BACK"
+                            android:layout_margin="5dp"
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/button2"
+                            android:layout_width="match_parent"
+                            style="@style/Widget.MaterialComponents.Button"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            ads:strokeColor="@color/colorPrimary"
+                            android:textAppearance="?textAppearanceBody1"
+                            android:textColor="@android:color/white"
+                            android:onClick="reapply"
+                            android:text="REAPPLY"
+                            android:layout_margin="5dp"
+                            />
+                    </com.google.android.flexbox.FlexboxLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/bg_small"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:id="@+id/banner_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                ads:layout_constraintBottom_toBottomOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_1"
+                android:orientation="vertical"
+                android:weightSum="10" />
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/audience_network_bannerad"  />
+</LinearLayout>
